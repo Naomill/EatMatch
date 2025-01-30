@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Kodchasan:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.font-kodchasan {
+body {
+  margin: 0;
   font-family: 'Kodchasan', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding-top: 80px;
 }

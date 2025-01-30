@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
 
@@ -11,11 +10,11 @@ const Footer = () => {
           
           <div className="flex flex-col md:flex-row gap-4 md:gap-8 font-kodchasan text-center">
             <Link to="/spin-and-dine" className="hover:text-gray-300">Spin & Dine</Link>
-            <div className="hidden md:block border border-[0.5px] border-solid border-white h-6"></div>
+            <div className="hidden md:block border-[0.5px] border-solid border-white h-6"></div>
             <Link to="/eat-by-destiny" className="hover:text-gray-300">Eat by Destiny</Link>
-            <div className="hidden md:block border border-[0.5px] border-solid border-white h-6"></div>
+            <div className="hidden md:block border-[0.5px] border-solid border-white h-6"></div>
             <Link to="/eats-for-every-mood" className="hover:text-gray-300">Eats for Every Mood</Link>
-            <div className="hidden md:block border border-[0.5px] border-solid border-white h-6"></div>
+            <div className="hidden md:block border-[0.5px] border-solid border-white h-6"></div>
             <Link to="/fridge-to-table" className="hover:text-gray-300">Fridge-to-Table</Link>
           </div>
 
