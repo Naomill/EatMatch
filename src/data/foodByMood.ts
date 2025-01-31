@@ -255,7 +255,7 @@ interface FoodItem {
         id: 40,
         title: "Healing Porridge",
         description: "Warm, comforting porridge with honey and fruits.",
-        image: "https://images.unsplash.com/photo-1544489518-2716c4e1b68d"
+        image: "https://i.guim.co.uk/img/media/9908a278684b19a61ce0294f6e299531e9286de9/0_260_4608_2765/master/4608.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=ecca65ce12f9eac52b4dd6d57e66b065"
       }
     ],
     envy: [

@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-[#FFC145] z-50 py-5 px-4 md:px-[120px] transition-all duration-300">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-black font-bold text-2xl font-kodchasan">EatMatch</Link>
+        <Link to="/">
+        <img src='/assets/Logo-light.svg' alt='Logo Eatmatch' className='h-10 w-auto'/>
+        </Link>
 
         {/* Mobile menu button */}
         <button

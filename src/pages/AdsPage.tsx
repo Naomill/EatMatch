@@ -5,7 +5,7 @@ import { ads } from '../data/ads';
 
 const AdsPage = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pt-24">
       <Navbar />
       
       <main className="flex-grow bg-gray-50 py-8 md:py-12">
