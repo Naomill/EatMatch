@@ -36,7 +36,7 @@ const MoodCard: React.FC<MoodCardProps> = ({ mood, color, onClick }) => {
             key={index}
             src={image}
             alt={mood}
-            className={`absolute w-full h-full object-cover transition-opacity duration-500 ${
+            className={`absolute w-full h-full object-cover transition-opacity duration-300 ${
               currentImage === index ? "translate-x-0" : "-translate-x-full"
             }`}
           />
