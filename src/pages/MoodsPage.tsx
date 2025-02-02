@@ -3,7 +3,6 @@ import MoodCard from '../components/MoodCard';
 import FoodPopup from '../components/FoodPopup';
 import { foodData } from '../data/foodByMood';
 import NavbarLight from '../components/NavbarLight';
-import Footer from '../components/Footer';
 
 function MoodsPage() {
   const [selectedFood, setSelectedFood] = useState<any>(null);
