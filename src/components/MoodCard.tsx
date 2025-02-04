@@ -26,17 +26,16 @@ const MoodCard: React.FC<MoodCardProps> = ({ mood, color, onClick }) => {
 
   return (
     <div
-      className={`${color} rounded-lg cursor-pointer transform transition-transform hover:scale-105 flex flex-col justify-center items-center gap-[10px] w-[220px] h-[350px]`}
+      className={`${color} rounded-lg cursor-pointer transform transition-transform hover:scale-105 flex flex-col justify-center items-center gap-[10px] w-[230px] h-[360px]`}
       onClick={onClick}
     >
-      {/* รูปภาพสลับกัน */}
       <div className="w-36 h-36 overflow-hidden mb-4 relative">
         {moodImages[mood as keyof typeof moodImages].map((image, index) => (
           <img
             key={index}
             src={image}
             alt={mood}
-            className={`absolute w-full h-full object-cover transition-opacity duration-300 ${
+            className={`absolute w-full h-full object-cover transition-opacity duration-200 ${
               currentImage === index ? "translate-x-0" : "-translate-x-full"
             }`}
           />

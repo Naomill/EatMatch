@@ -36,27 +36,27 @@ function MoodsPage() {
         <div className="flex flex-wrap justify-center gap-6">
           <MoodCard
             mood="happy"
-            color="bg-yellow-200"
+            color="bg-[#FFD569]"
             onClick={() => handleMoodSelect('happy')}
           />
           <MoodCard
             mood="angry"
-            color="bg-red-300"
+            color="bg-[#FA7878]"
             onClick={() => handleMoodSelect('angry')}
           />
           <MoodCard
             mood="surprise"
-            color="bg-blue-200"
+            color="bg-[#C1DAFF]"
             onClick={() => handleMoodSelect('surprise')}
           />
           <MoodCard
             mood="fear"
-            color="bg-purple-200"
+            color="bg-[#B3A6FF]"
             onClick={() => handleMoodSelect('fear')}
           />
           <MoodCard
             mood="envy"
-            color="bg-green-200"
+            color="bg-[#A8FFD5]"
             onClick={() => handleMoodSelect('envy')}
           />
         </div>
